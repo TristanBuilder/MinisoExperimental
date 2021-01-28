@@ -1,0 +1,201 @@
+$GeneralFont: Lato, Helvetica;
+
+h1, h2, #bestSellers {
+	font: $GeneralFont;
+}
+
+#bannerContainer{
+	height: 400px;
+	width: 100%;
+	background: url(https://miniso.com.mx/marketplaces/CatalogoMKT/JPG/2006869310104_2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.bloque{
+	margin-top: 40px;
+}
+
+#ping{
+	width: 90%;
+}
+
+p {
+	font-size: 18px;
+	font: $GeneralFont;
+	text-align: justify;
+}
+
+.parBlock {
+
+	h2{
+		padding: 20px;
+	}
+
+	p{
+		padding: 20px;
+	}
+	
+}
+
+.FotoProducto {
+	display: block;
+	margin: auto;
+}
+
+#revolucion {
+	margin: auto;
+}
+
+.topHome {
+	padding: 10px;
+}
+
+ul, #logo{
+	margin-top: 30px;
+}
+
+
+#peluches{
+	background-color: #94ffad;
+}
+
+#hogar{
+	background-color: #fff894;
+}
+
+#viajes{
+	background-color: #cf94ff;
+}
+
+#saludybelleza{
+	background-color: #ff94a2;
+}
+
+%CategoryLinkStyle{
+	list-style: none;
+	font-size: 20px;
+	padding: 15px;
+	margin: 15px;
+}
+
+li{
+	@extend %CategoryLinkStyle;
+}
+
+a{
+	color: white;
+}
+
+.topImage{
+	width: 100px;
+}
+
+th, td{
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.rank, .imageSpace, .descripcion, .precio{
+	font-style: bold;
+	color: white;
+	background-color: #cf94ff;
+}
+
+table{
+	margin: auto;
+}
+
+.parrafoCategoria{
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	padding-top: 50px;
+}
+
+#parrafoPeluches{
+	background-image: url("https://miniso.com.mx/marketplaces/CatalogoMKT/JPG/0300015951_1.jpg");
+}
+
+#parrafoHogar{
+	background-image: url("https://miniso.com.mx/marketplaces/CatalogoMKT/JPG/0100036701_5.jpg");
+}
+
+#parrafoViajes{
+	background-image: url("https://miniso.com.mx/marketplaces/CatalogoMKT/JPG/700059682_1.jpg");
+}
+
+#parrafoSaludYBelleza{
+	background-image: url("https://miniso.com.mx/marketplaces/CatalogoMKT/JPG/0200037961_2.jpg");
+}
+
+.backHome{
+	padding: 15px;
+	margin: 80px;
+	text-align: center;
+}
+
+#backFromPeluches{
+	background-color: #94ffad;
+}
+
+#backFromHogar{
+	background-color: #fff894;
+}
+
+#backFromViajes{
+	background-color: #cf94ff;
+}
+
+#backFromSaludYBelleza{
+	background-color: #ff94a2;
+}
+ 	
+@media (max-width: 600px){
+
+	h1, h2{
+		font-size: 20px;
+	}
+
+	#bannerContainer{
+		height: 150px;
+		width: 100%;
+		}
+
+	p {
+		font-size: 10px;
+	}
+
+	.parrafoCategoria > p{
+		font-size: 15px;
+	}
+
+	.parBlock {
+		padding: 10px;
+	}
+
+	.parBlock > h2,p {
+		padding: 5px;
+	}
+
+	.topHome {
+		padding: 5px;
+	}
+
+	ul, #logo{
+		margin-top: 15px;
+	}
+
+
+	.CategoryLink {
+		list-style: none;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	td, th{
+		font-size: 12px;
+	}		
+
+} 	
